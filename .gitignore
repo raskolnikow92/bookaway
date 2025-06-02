@@ -1,0 +1,90 @@
+########################################
+# 🔁 Allgemeine Node.js & JS Tools
+########################################
+node_modules/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+report.[0-9]*.json
+
+# Umgebung & Cache
+.env
+.env.*
+*.env.local
+*.tsbuildinfo
+.nyc_output/
+coverage/
+.cache/
+dist/
+build/
+.pnp.*
+.eslintcache
+.stylelintcache
+
+# Debug / Lock / History
+*.pid
+*.pid.lock
+.node_repl_history
+.lock-wscript
+
+# Tooling
+bower_components/
+lib-cov/
+.grunt/
+.jspm_packages/
+web_modules/
+.yarn-integrity
+.rpt2_cache/
+.rts2_cache_*/
+.vscode-test/
+
+# IDEs & System-Dateien
+.DS_Store
+Thumbs.db
+
+########################################
+# 🧪 Tests & Output
+########################################
+*.tgz
+*.seed
+*.lcov
+out/
+test-output/
+
+########################################
+# 🖥 Frontend (Vite + React)
+########################################
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.env*
+frontend/.cache
+frontend/coverage/
+
+########################################
+# ⚙ Backend (Node.js + MongoDB)
+########################################
+backend/node_modules/
+backend/build/
+backend/*.log
+backend/.env*
+backend/coverage/
+
+# MongoDB Dump/Export (falls du Datenbank-Backups speicherst)
+backend/dump/
+backend/*.bson
+backend/*.json
+backend/*.lock
+
+# Mongoose auto-generated (wenn du z. B. `mongoose-auto-increment` nutzt)
+backend/models/__generated__/
+
+# Datenbankdateien (selten, aber falls du MongoDB lokal persistierst)
+*.mongodb
+*.mongo
+
+########################################
+# 📦 Op
