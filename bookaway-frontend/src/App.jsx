@@ -1,6 +1,6 @@
-import { useState } from 'react'
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBar from './components/NavBar/NavBar';
 
 
 function App() {
@@ -8,6 +8,7 @@ function App() {
   return (
     <>
       <NavBar/>
+      <p>test</p>
     </>
   )
 }
