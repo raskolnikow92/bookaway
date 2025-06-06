@@ -1,0 +1,362 @@
+[
+  {
+    "title": "Die Drachenflamme",
+    "author": "Anna Berg",
+    "description": "Die Geschichte eines unvergesslichen Abenteuers.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Elfenblut",
+    "author": "Laura Sommer",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Magierkriege",
+    "author": "Sophie Klein",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Der dunkle Turm",
+    "author": "Clara Neumann",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Schattenwald",
+    "author": "Clara Neumann",
+    "description": "Eine fesselnde Reise durch Raum und Zeit.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Zauberklinge",
+    "author": "Lukas Meier",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Runenzauber",
+    "author": "Clara Neumann",
+    "description": "Ein berührendes Porträt über das Leben.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Die Nebelinsel",
+    "author": "Paul König",
+    "description": "Eine fesselnde Reise durch Raum und Zeit.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Chroniken von Eldur",
+    "author": "Paul König",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Die letzte Prophezeiung",
+    "author": "Paul König",
+    "description": "Die Geschichte eines unvergesslichen Abenteuers.",
+    "genre": "Fantasy"
+  },
+  {
+    "title": "Mord im Nebel",
+    "author": "Nina Schwarz",
+    "description": "Ergreifend, emotional und intensiv.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Die letzte Spur",
+    "author": "Laura Sommer",
+    "description": "Die Geschichte eines unvergesslichen Abenteuers.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Blutige Wahrheit",
+    "author": "Paul König",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Tödliche Gier",
+    "author": "Anna Berg",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Der stille Zeuge",
+    "author": "Felix Roth",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Abgrund",
+    "author": "Paul König",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Der Verdacht",
+    "author": "Tom Wagner",
+    "description": "Die Geschichte eines unvergesslichen Abenteuers.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Schattenspiele",
+    "author": "Nina Schwarz",
+    "description": "Spannend bis zur letzten Seite.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Das Alibi",
+    "author": "Laura Sommer",
+    "description": "Spannend bis zur letzten Seite.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Eiskalte Rache",
+    "author": "Jan Becker",
+    "description": "Ein berührendes Porträt über das Leben.",
+    "genre": "Krimi"
+  },
+  {
+    "title": "Galaxis 9",
+    "author": "Tom Wagner",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Der letzte Kolonist",
+    "author": "Lukas Meier",
+    "description": "Ein berührendes Porträt über das Leben.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Sternenstaub",
+    "author": "Felix Roth",
+    "description": "Ein berührendes Porträt über das Leben.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Zeitkapsel",
+    "author": "Sophie Klein",
+    "description": "Ein literarisches Highlight des Jahres.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Terraformer",
+    "author": "Anna Berg",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Künstliches Bewusstsein",
+    "author": "Lukas Meier",
+    "description": "Ein berührendes Porträt über das Leben.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Schwarze Materie",
+    "author": "Lukas Meier",
+    "description": "Ein literarisches Highlight des Jahres.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Kosmoskriege",
+    "author": "Anna Berg",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Androidenfall",
+    "author": "Jan Becker",
+    "description": "Spannend bis zur letzten Seite.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Horizont X",
+    "author": "Lukas Meier",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Science Fiction"
+  },
+  {
+    "title": "Das Gehirn verstehen",
+    "author": "Anna Berg",
+    "description": "Eine fesselnde Reise durch Raum und Zeit.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Klimawandel erklärt",
+    "author": "Anna Berg",
+    "description": "Spannend bis zur letzten Seite.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Die Geschichte Europas",
+    "author": "Nina Schwarz",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Einführung in die Quantenphysik",
+    "author": "Jan Becker",
+    "description": "Eine fesselnde Reise durch Raum und Zeit.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Erfolgreich investieren",
+    "author": "Tom Wagner",
+    "description": "Die Geschichte eines unvergesslichen Abenteuers.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Psychologie des Alltags",
+    "author": "Paul König",
+    "description": "Ein literarisches Highlight des Jahres.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Ernährung und Gesundheit",
+    "author": "Sophie Klein",
+    "description": "Ein packender Roman über Mut und Hoffnung.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Das Internetzeitalter",
+    "author": "Anna Berg",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Baugeschichte der Moderne",
+    "author": "Lukas Meier",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Künstliche Intelligenz",
+    "author": "Nina Schwarz",
+    "description": "Ein packender Roman über Mut und Hoffnung.",
+    "genre": "Sachbuch"
+  },
+  {
+    "title": "Mein Weg",
+    "author": "Clara Neumann",
+    "description": "Ein literarisches Highlight des Jahres.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Im Schatten der Macht",
+    "author": "Nina Schwarz",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Ein Leben für die Kunst",
+    "author": "Nina Schwarz",
+    "description": "Ein literarisches Highlight des Jahres.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Erinnerungen eines Pioniers",
+    "author": "Nina Schwarz",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Zwischen den Welten",
+    "author": "Felix Roth",
+    "description": "Ein packender Roman über Mut und Hoffnung.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Vom Flüchtling zum Forscher",
+    "author": "Jan Becker",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Die stille Revolution",
+    "author": "Lukas Meier",
+    "description": "Ein berührendes Porträt über das Leben.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Ich, der Rebell",
+    "author": "Anna Berg",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Worte, die blieben",
+    "author": "Lukas Meier",
+    "description": "Spannend bis zur letzten Seite.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Der lange Aufstieg",
+    "author": "Nina Schwarz",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Biografie"
+  },
+  {
+    "title": "Verloren im Herzen",
+    "author": "Jan Becker",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Sommerträume",
+    "author": "Anna Berg",
+    "description": "Ergreifend, emotional und intensiv.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Für immer wir",
+    "author": "Clara Neumann",
+    "description": "Ein Buch, das zum Nachdenken anregt.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Im Regen geküsst",
+    "author": "Sophie Klein",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Tage mit dir",
+    "author": "Lukas Meier",
+    "description": "Eine fesselnde Reise durch Raum und Zeit.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Wenn du bleibst",
+    "author": "Sophie Klein",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Ein Hauch von Liebe",
+    "author": "Laura Sommer",
+    "description": "Eine fesselnde Reise durch Raum und Zeit.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Rosen im Wind",
+    "author": "Tom Wagner",
+    "description": "Ein mitreißendes Epos voller Überraschungen.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Nächte in Paris",
+    "author": "Clara Neumann",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Liebesroman"
+  },
+  {
+    "title": "Herzensflimmern",
+    "author": "Paul König",
+    "description": "Einfühlsam und tiefgründig erzählt.",
+    "genre": "Liebesroman"
+  }
+]

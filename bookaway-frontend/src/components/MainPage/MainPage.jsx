@@ -14,7 +14,7 @@ export function MainPage() {
       </div>
       <div className={styles.genreContainer}>
         {genres.map((genre) => (
-          <div key={genre.id} className={styles.genreCard}>
+          <div key={genre.id} className={styles.genreCard} onClick={()=> console.log(`klick auf ${genre.name}`)}>
             <div className={styles.genreContent}>
               <img src={genre.img} alt={genre.name} />
               <p>{genre.name}</p>
