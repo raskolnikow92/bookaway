@@ -13,7 +13,7 @@ app.get('/', (req, res)=>{
     res.send('Hallo vom Backend!')
 })
 
-app.use('api/genre', genreRoutes);
+app.use('/api/genre', genreRoutes);
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Backend läuft auf Port: ${PORT}`);

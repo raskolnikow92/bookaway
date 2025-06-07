@@ -9,7 +9,7 @@ router.get("/:genreName", async (req, res)=> {
         console.log(genreName);
         const db = await connectToDB();
         const collection = db.collection("books");
-        const result = await collection.findMany({"genre":genreName})
+        const result = await collection.find({"genre":genreName})
         return res.send(result);
     }catch(err){
         console.log(err);
