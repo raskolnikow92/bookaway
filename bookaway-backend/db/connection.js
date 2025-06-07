@@ -21,6 +21,7 @@ async function connectToDB() {
             "Successfully connected"
         );
         db = client.db("bookaway")
+        return db;
     }catch(err){
         console.error(err)
         process.exit(1);
