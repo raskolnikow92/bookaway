@@ -30,6 +30,17 @@ build/
 .node_repl_history
 .lock-wscript
 
+# Lokale MongoDB-Datenbankdateien
+data/mongodb/
+data/mongodb/**
+
+# (Optional, falls du metrische/log-Dateien separat speichern solltest)
+data/mongodb.diagnostic.data/
+data/mongodb.diagnostic.data/**
+data/mongodb.journal/
+data/mongodb.journal/**
+
+
 # Tooling
 bower_components/
 lib-cov/
