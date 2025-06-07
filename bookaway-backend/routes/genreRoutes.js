@@ -1,0 +1,18 @@
+const express = require('express');
+const { connectToDB } = require('../db/Connection');
+const router = express.Router();
+
+
+router.get("/genre/:genreName", async (req, res)=> {
+    try{
+        const genreName = req.params.genreName;
+        const db = await connectToDB();
+        const collection = db.collection("books");
+        const result = await collection.findMany({"genre":genreName})
+        return res.send(result);
+    }catch(err){
+        console.log(err);
+        return res.status(500).send(err);
+    }
+    
+})
