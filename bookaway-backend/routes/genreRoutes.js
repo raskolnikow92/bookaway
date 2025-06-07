@@ -3,9 +3,10 @@ const { connectToDB } = require('../db/Connection');
 const router = express.Router();
 
 
-router.get("/genre/:genreName", async (req, res)=> {
+router.get("/:genreName", async (req, res)=> {
     try{
         const genreName = req.params.genreName;
+        console.log(genreName);
         const db = await connectToDB();
         const collection = db.collection("books");
         const result = await collection.findMany({"genre":genreName})
@@ -16,3 +17,5 @@ router.get("/genre/:genreName", async (req, res)=> {
     }
     
 })
+
+module.exports = router;
