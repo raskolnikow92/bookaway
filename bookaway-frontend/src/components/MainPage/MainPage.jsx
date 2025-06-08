@@ -1,7 +1,9 @@
+import { useNavigate } from "react-router-dom";
 import genres from "../../utils/GenreList";
 import styles from './MainPage.module.css';
 
 export function MainPage() {
+  const navigate = useNavigate();
   return (
     <div className={styles.viewContainer}>
       <div className={styles.textContainer}>
@@ -14,7 +16,7 @@ export function MainPage() {
       </div>
       <div className={styles.genreContainer}>
         {genres.map((genre) => (
-          <div key={genre.id} className={styles.genreCard} onClick={()=> console.log(`klick auf ${genre.name}`)}>
+          <div key={genre.id} className={styles.genreCard} onClick={()=> navigate(`/genre/${genre.name}`)}>
             <div className={styles.genreContent}>
               <img src={genre.img} alt={genre.name} />
               <p>{genre.name}</p>
@@ -25,3 +27,4 @@ export function MainPage() {
     </div>
   );
 }
+export default MainPage;
