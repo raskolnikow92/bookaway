@@ -13,6 +13,7 @@ async function fillDatabase(){
         const filePath = path.join(__dirname, 'books_for_mongodb.json');
         const booksData = JSON.parse(fs.readFileSync(filePath, 'utf-8'));
         const result = await collection.insertMany(booksData);
+        const all = await collection.updateMany({}, {$set:{"amount":1}})
         console.log (`Es wurden ${result.insertedCount} Bücher importiert!`)
     }catch(err){
         console.log(err);
