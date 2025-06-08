@@ -6,7 +6,6 @@ const router = express.Router();
 router.get("/:genreName", async (req, res)=> {
     try{
         const genreName = req.params.genreName;
-        console.log(genreName);
         const db = await connectToDB();
         const collection = db.collection("books");
         const result = await collection.find({ genre: genreName }).toArray();
