@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, Link } from 'react-router-dom';
 import { urlConfig } from '../../config';
 import genres from '../../utils/GenreList';
 import styles from './GenrePage.module.css';
@@ -22,7 +22,7 @@ function GenrePage(){
             }   
         }
         fetchdata();
-    },[])
+    },)
     
     
 
@@ -55,7 +55,7 @@ function GenrePage(){
                         <td>{item.author}</td>
                         <td>{item.title}</td>
                         <td>{item.genre}</td>
-                        <td>Link</td>
+                        <td><Link to={`/book/${item._id}`}>Details</Link></td>
                     </tr>
                     ))}
                 </tbody>

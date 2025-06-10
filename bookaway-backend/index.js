@@ -2,6 +2,7 @@ require('dotenv').config();
 const express = require('express');
 const { connectToDB } = require('./db/Connection');
 const genreRoutes = require('./routes/genreRoutes');
+const bookRoutes = require('./routes/bookRoutes');
 const cors = require('cors');
 
 const app = express();
@@ -16,6 +17,7 @@ app.get('/', (req, res)=>{
 })
 
 app.use('/api/genre', genreRoutes);
+app.use('/api/book', bookRoutes);
 
 app.listen(PORT, '0.0.0.0', () => {
   console.log(`Backend läuft auf Port: ${PORT}`);

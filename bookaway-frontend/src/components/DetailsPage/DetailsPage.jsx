@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
 import { urlConfig } from '../../config';
 function DetailsPage(){
     const { bookid } = useParams();
-    const {bookData, setBookData} = useState(null);
+    const [bookData, setBookData] = useState(null);
     useEffect(()=>{
         const fetchdata = async()=>{
             try{
@@ -12,7 +12,9 @@ function DetailsPage(){
                     throw new Error('Network response was not ok');
                 }
                 const data = await response.json();
+                console.log(data)
                 setBookData(data);
+                console.log(bookData);
             }catch(err){
                 console.error(err);
             }   
@@ -20,11 +22,20 @@ function DetailsPage(){
         fetchdata();
     },[])
     
-    return (
-        <div>
-
-        </div>
-    )
+    if(!bookData){
+        return <div>Loading</div>
+    }else{
+        return (
+            <div className='bookContainer'>
+                <div className='bookCard'>
+                    <h1>{bookData.title}</h1>
+                    <h2>{bookData.author}</h2>
+                    <p>{bookData.description}</p>
+                </div>
+            </div>
+        )
+    }
+    
 }
 
 export default DetailsPage;
